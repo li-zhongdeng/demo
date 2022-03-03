@@ -1,8 +1,13 @@
 import {combineReducers} from 'redux';
-import home from './home';
+// import home from './home';
+import demo from './demo';
+
+// const appReducer = combineReducers({
+//   [home.ducks.NAME]: home.reducer,
+// });
 
 const appReducer = combineReducers({
-  [home.ducks.NAME]: home.reducer,
+  [demo.ducks.NAME]: demo.reducer,
 });
 
 export default (state, action) => {
