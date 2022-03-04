@@ -367,7 +367,7 @@ SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
   FBLazyVector: e686045572151edef46010a6f819ade377dfeb4b
-  FBReactNativeSpec: c198e98d9c5bdeba912b26dde4529dcd9e71c5ed
+  FBReactNativeSpec: d8afd85dcf20fe597b7b7047fb1819a10f4932fd
   glog: 73c2498ac6884b13ede40eda8228cb1eee9d9d62
   RCT-Folly: ec7a233ccc97cc556cf7237f0db1ff65b986f27c
   RCTRequired: 6d3e854f0e7260a648badd0d44fc364bc9da9728
@@ -396,4 +396,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 8ecd3a8a034f16ced0d2ecb964730a2d0b22c16e
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.10.1
