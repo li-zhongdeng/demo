@@ -14,9 +14,6 @@ export const {
     api: api.getData,
     mapActionToPayload: action => action.payload,
     mapActionToKey: action =>action.params.test,
-    options:{
-      
-    },
     // restoreFetchableKeyToAction: ()=>{
 
     // }
