@@ -5,18 +5,18 @@ const server = axios.create({
   baseURL : 'https://api.github.com/',
   timeout:3000
 })
+const flag = true
+export const getData = (params) =>(
+  server({
+    method:'get',
+    url:`/search/repositories?q=${params.test}`
+  }).then(res=>res)
+  
+)
+  
 
-export const getData = (params) =>
-  new Promise(resolve => {
-    server({
-      method:'get',
-      url:`/search/repositories?q=${params.test}`
-    }).then((res)=>{
-      resolve(res)
-      console.log(res);
-    })
-  });
 
+    
 // export const data = {
 //   data1:[
 //     {
